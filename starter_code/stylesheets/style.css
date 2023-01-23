@@ -8,3 +8,1242 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+
+
+* {
+
+    font: black;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #540B51;
+}
+
+
+
+
+/*slack logo */
+nav div img {
+    background-color: #540B51;
+    width: 116px;
+    height: 30px;
+}
+nav div {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+
+nav div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+}
+
+
+nav div button {
+    background-color: #540B51;
+    border: none;
+
+}
+
+nav div button img {
+    background-color: #540B51;
+    border: #540B51;
+    width: 20px;
+    height: 20px;
+
+
+}
+
+
+nav div ul {
+    display: none;
+}
+
+/* header section*/
+header {
+    background-color: #540B51;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+header div:nth-child(2) img {
+    width: 100%;
+
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+
+}
+
+header div p {
+    color: white;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+
+}
+
+header div p span {
+    color: #ECB12F;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+
+}
+
+header div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 130px;
+    width: 100%;
+
+
+}
+
+/*white button*/
+header div div button {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    color: #540B51;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 90%;
+}
+
+/*blue button*/
+header div div button:nth-child(2) {
+    background-color: #4285F4;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    gap: 15%;
+
+}
+
+header div div button:nth-child(2) span {
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+
+
+
+}
+
+header div div button img {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    padding: 9px;
+    margin-left: 5px;
+    border-radius: 3px;
+
+}
+
+header div div {
+    text-align: center;
+    display: flex;
+
+}
+
+
+
+/* MAIN SECTION */
+
+main {
+    background-color: #F3EAE2;
+    margin: 0px;
+
+
+}
+
+
+/* MAIN SECTION secton one*/
+main {
+    background-color: #F3EAE2;
+
+}
+
+main section:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+main section:nth-child(1) p {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.65rem;
+
+
+}
+
+main section:nth-child(1) div {
+    background-color: #F3EAE2;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+
+/* LOGO SECTION*/
+main section:nth-child(1) div img {
+    background-color: #F3EAE2;
+    margin: 10px;
+
+
+}
+
+/* airbnb*/
+main section:nth-child(1) div img:nth-child(1) {
+    width: 100px;
+    height: 30px;
+}
+
+/* nasa*/
+main section:nth-child(1) div img:nth-child(2) {
+    width: 60px;
+    height: 50px;
+}
+
+/* uber*/
+main section:nth-child(1) div img:nth-child(3) {
+    width: 60px;
+    height: 30px;
+}
+
+/* target logo*/
+main section:nth-child(1) div img:nth-child(4) {
+    width: 45px;
+    height: 45px;
+}
+
+
+/* nyt logo*/
+main section:nth-child(1) div img:nth-child(5) {
+    width: 180px;
+    height: 35px;
+
+}
+
+/* spotify*/
+main section:nth-child(1) div img:nth-child(6) {
+    width: 130px;
+    height: 40px;
+}
+
+
+
+/* MAIN SECTION secton two*/
+
+main section:nth-child(2) {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* big curved images */
+main section img {
+    width: 100%;
+
+
+}
+
+/* second first image*/
+main section:nth-child(2) div:nth-child(1) img+img {
+    display: none;
+}
+
+main section h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main section p {
+    font-size: 0.8rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+/* Blue Links*/
+main section div a:link {
+    text-decoration: none;
+}
+
+main section div a span {
+    font-size: 0.7rem;
+    color: #2E71A6;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+main section div p {
+    text-transform: none;
+
+}
+
+
+/* third reversed section */
+main section:nth-child(3) {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+
+main section:nth-child(3) div:nth-child(2) img+img {
+    display: none;
+
+}
+
+
+/* fourth reversed section */
+
+main section:nth-child(4) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+main section:nth-child(4) div:nth-child(1) img+img {
+    display: none;
+
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+main section:nth-child(3) div:nth-child(1) img+img {
+    display: none;
+}
+
+
+
+/* fifth reversed section */
+
+main section:nth-child(5) {
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+
+}
+
+main section:nth-child(5) h3 {
+    color: black;
+    font-size: 1.3rem;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+main section:nth-child(5) p {
+    text-align: center;
+}
+
+main section:nth-child(5) div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 130px;
+
+
+}
+
+/* buttons */
+/* purple buttons */
+main section:nth-child(5) div button {
+    background-color: #540B51;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 340px;
+
+}
+
+/* buttons white button */
+main section:nth-child(5) div button:nth-child(2) {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    color: #540B51;
+    border: #540B51 solid 1.7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 340px;
+
+}
+
+/*PERCENTAGE SECTION */
+main section ul li {
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+main section ul li p span {
+    color: #540B51;
+    font-size: 2rem;
+    margin: 0px;
+}
+
+main section ul li p {
+    font-weight: bolder;
+    font-size: 0.6rem;
+    width: 40%;
+    margin-top: 0px;
+
+}
+
+main section ul li p sup {
+    font-size: 0.5rem;
+}
+
+
+main section:nth-child(5) div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 130px;
+
+
+}
+
+
+/* last section */
+
+main section:nth-child(6) {
+    background-color: #540B51;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 330px;
+    gap: 15px;
+
+
+}
+
+main section:nth-child(6) h3 {
+    color: white;
+    font-size: 1.3rem;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+/* buttons */
+/* TALK TO SALE */
+main section:nth-child(6) button {
+    background-color: #540B51;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    border: white solid 1.7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 75%;
+
+}
+
+/* buttons TRY FOR FREE */
+main section:nth-child(6) button:nth-child(2) {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    color: #540B51;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.7rem;
+    display: flex;
+    order: 1;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 75%;
+
+
+}
+
+
+/* footer */
+footer {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    order: -1;
+}
+
+footer img+div {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    order: -1;
+
+
+
+}
+
+.footerTitle {
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+footer img+div ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    list-style-type: none;
+    line-height: 150%;
+    color: #454245
+}
+
+
+footer img+div ul li {
+    font-size: 0.60rem;
+
+}
+
+/* status section*/
+footer img+div+ul {
+    background-color: white;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    list-style-type: none;
+    line-height: 150%;
+
+
+}
+
+footer img+div+ul li {
+
+    font-size: 0.6rem;
+
+
+}
+
+footer img+div+ul li:first-child {
+    font-size: 0.6rem;
+
+}
+
+footer img+div+ul+hr {
+    display: flex;
+    order: -1;
+
+
+}
+
+footer img+div+ul+hr+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+footer img+div+ul+hr+ul+div small {
+    font-size: 0.6rem;
+    text-align: center;
+    display: flex;
+    color: #454245
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+
+    * {
+        font-size: 20px;
+
+
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: center;
+        overflow: hidden;
+        height: 600px;
+        background-image: url("../images/background-singup.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+
+
+    }
+
+    h1 {
+        color: white;
+        text-align: left;
+        font-size: 3.1rem;
+        margin: 20px;
+
+
+
+
+    }
+
+    header div:nth-child(1) {
+        width: 50%;
+        height: 600px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding-left: 20px;
+
+    }
+
+
+    header div:nth-child(2) {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        left: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    header div:nth-child(2) img {
+        width: 425px;
+        height: 275px;
+
+
+    }
+
+    header div div button {
+        font-size: 0.6rem;
+
+    }
+
+
+    header div div button:nth-child(2) span {
+        font-size: 0.6rem;
+    }
+
+    /* main first section */
+    /* first main image */
+
+
+
+    main section:nth-child(2) div:nth-child(1)>img {
+        display: none;
+    }
+
+
+    main section:nth-child(2) div:nth-child(1) img+img {
+        width: 90%;
+        display: block;
+    }
+
+
+
+    main section:nth-child(2) div:nth-child(2) {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    main section div h2 {
+        width: 60%;
+        font-size: 1.5rem;
+        margin-bottom: 0px;
+    }
+
+    main section:nth-child(2) p {
+        width: 60%;
+    }
+
+    main section div a:link {
+        width: 60%;
+        margin-left: 0px;
+
+    }
+
+    main section div a span {
+        margin-left: 0px;
+    }
+
+    /* second main image */
+
+
+    main section:nth-child(3) div:nth-child(1) {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    main section:nth-child(3) p {
+        width: 60%;
+    }
+
+    main section:nth-child(3) div:nth-child(2)>img {
+        display: none;
+    }
+
+
+    main section:nth-child(3) div:nth-child(2) img+img {
+        width: 90%;
+        display: block;
+    }
+
+    main section:nth-child(3) div:nth-child(2) {
+        display: flex;
+        justify-content: end;
+    }
+
+    /* third main images */
+
+
+    main section:nth-child(4) div:nth-child(1)>img {
+        display: none;
+    }
+
+
+    main section:nth-child(4) div:nth-child(1) img+img {
+        width: 90%;
+        display: block;
+    }
+
+
+
+    main section:nth-child(4) div:nth-child(2) {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    main section:nth-child(4) p {
+        width: 60%;
+    }
+
+
+
+
+
+    main section:nth-child(5) div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        height: 130px;
+
+
+    }
+
+    /* buttons */
+    /* purple buttons */
+
+    /* buttons white button */
+    main section:nth-child(5) div button:nth-child(2) {
+        height: 50px;
+        width: 200px;
+    }
+
+    main section ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    /* buttons */
+    /* TALK TO SALE */
+
+
+    /* buttons TRY FOR FREE */
+    main section:nth-child(6) button:nth-child(2) {
+        display: flex;
+        order: 0;
+
+
+
+    }
+
+    footer img+div+ul {
+        font-size: 0.6rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    footer img+div+ul+hr+ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width:1440px) {
+    nav { display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+    }
+
+    nav div {
+       width: 80%;
+       display: flex;
+       justify-content: start;
+
+
+    }
+
+    nav div ul {
+        display: block;
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-evenly;
+        width: 60%;
+
+
+    }
+
+    nav div ul li a {
+        list-style-type: none;
+        color: white;
+        text-decoration: none;
+    }
+
+    nav div:nth-child(2) button:nth-child(2) img{
+        display: none;
+    
+    
+    }
+
+
+
+    nav div:nth-child(2)  {
+     
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+       
+    
+    
+    }
+
+    nav div:nth-child(2) ul {
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+
+
+    nav div:nth-child(2) ul li:nth-child(2) {
+        background-color: white;
+        border: none;
+        border-radius: 3px;
+        font-weight: bold;
+        font-size: 0.7rem;
+        
+    }
+
+    nav div:nth-child(2) ul li:nth-child(2) a {
+        color: #540B51;
+        text-transform: uppercase;
+        padding: 15px;
+        display: flex;
+        justify-content: space-evenly;
+        
+        
+
+    }
+
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: center;
+        overflow: hidden;
+        height: 600px;
+        background-image: url("../images/background-singup.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+
+
+    }
+    h1 {
+        color: white;
+        text-align: left;
+        font-size: 3.1rem;
+        margin: 20px;
+
+
+
+
+    }
+
+    header div:nth-child(1) {
+        width: 50%;
+        height: 600px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding-left: 20px;
+
+    }
+
+
+    header div:nth-child(2) {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        left: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    header div:nth-child(2) img {
+        width: 425px;
+        height: 275px;
+
+
+    }
+
+    header div div button {
+        font-size: 0.6rem;
+
+    }
+
+
+    header div div button:nth-child(2) span {
+        font-size: 0.6rem;
+    }
+
+    /* main first section */
+    /* first main image */
+
+
+    main section:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    }
+   
+    main section:nth-child(2) div:nth-child(1)>img {
+        display: none;
+    }
+
+
+    main section:nth-child(2) div:nth-child(1) img+img {
+        width: 90%;
+        display: block;
+    }
+
+
+
+    main section:nth-child(2) div:nth-child(2) {
+
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        
+
+    }
+
+    main section div h2 {
+        width: 60%;
+        font-size: 1.5rem;
+        margin-bottom: 0px;
+    }
+
+   
+    main section div a:link {
+        margin-left: 0px;
+
+    }
+
+    main section div a span {
+        margin-left: 0px;
+    }
+
+    /* second main image */
+
+    main section:nth-child(3) {
+        display: flex;
+        flex-direction: row;
+       justify-content: flex-end;
+        justify-content: space-between;
+        }
+        
+        main section:nth-child(3) div:nth-child(1) {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+       
+        main section:nth-child(3) div:nth-child(2)>img {
+            display: none;
+        }
+    
+    
+        main section:nth-child(3) div:nth-child(2) img+img {
+            width: 100%;
+            display: block;
+        }
+    
+    
+    
+        main section:nth-child(3) div:nth-child(2) {
+            display: flex;
+            flex-direction:column ;
+            justify-content: end;
+            margin: 0px;
+            
+    
+        }
+
+    /* third main images */
+
+    main section:nth-child(4) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        }
+
+    main section:nth-child(4) div:nth-child(1)>img {
+        display: none;
+    }
+
+
+    main section:nth-child(4) div:nth-child(1) img+img {
+        width: 90%;
+        display: block;
+    }
+
+
+
+    main section:nth-child(4) div:nth-child(2) {
+
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        text-align: left;
+
+    }
+
+
+    main section:nth-child(4) p {
+        width: 60%;
+    }
+
+
+
+
+
+    main section:nth-child(5) div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        height: 130px;
+
+
+    }
+
+    /* buttons */
+    /* purple buttons */
+
+    /* buttons white button */
+    main section:nth-child(5) div button:nth-child(2) {
+        height: 50px;
+        width: 200px;
+    }
+
+    main section ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+    /* buttons */
+    /* TALK TO SALE */
+
+
+    /* buttons TRY FOR FREE */
+
+    main section:nth-child(6) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 250px;
+        align-content: space-around;
+    
+    }
+    main section:nth-child(6) h3 {
+        font-size: 2.75rem;
+        width:100%;
+    }
+
+    main section:nth-child(6) button {
+        height: 50px;
+        width: 200px;
+        display: flex;
+        
+
+    }
+    main section:nth-child(6) button:nth-child(2) {
+        width: 200px;
+
+
+
+
+    }
+
+
+    footer img+div+ul {
+        font-size: 0.6rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    footer img+div+ul+hr+ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+        width: 50%;
+    }
+
+
+
+}
